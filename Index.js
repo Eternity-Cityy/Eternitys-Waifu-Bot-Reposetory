@@ -5,7 +5,8 @@ const TOKEN = ("dotenv").config()
 const client = new Discord.Client({
     intents: [
         "GUILDS",
-        "GUILD_MESSAGES"
+        "GUILD_MESSAGES",
+        "DIRECT_MESSAGES"
     ]
 })
 
